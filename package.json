@@ -1,0 +1,50 @@
+{
+  "name": "web-live",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "exports-loader": "^1.1.0",
+    "fabric": "^4.1.0",
+    "janus-gateway": "git://github.com/meetecho/janus-gateway.git",
+    "mqtt": "^4.2.1",
+    "tiny-emitter": "^2.1.0",
+    "video.js": "^7.8.4",
+    "vue": "^2.6.11",
+    "vue-cli-configjs": "^2.0.0",
+    "vue-router": "^3.4.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
